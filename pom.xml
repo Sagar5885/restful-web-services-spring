@@ -41,6 +41,11 @@
 		</dependency>
 		
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-rest-hal-browser</artifactId>
 		</dependency>
@@ -82,7 +87,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.opensaml</groupId>
 			<artifactId>opensaml-soap-api</artifactId>
 			<version>3.1.1</version>
@@ -92,7 +97,7 @@
 			<artifactId>commons-httpclient</artifactId>
 			<version>3.1</version>
 		</dependency>
-	</dependencies>
+ -->	</dependencies>
 
 	<build>
 		<plugins>
